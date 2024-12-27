@@ -48,6 +48,7 @@ header{
     text-align: center;
     max-width: 80vw;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    padding-top: 50px;
 }
 .header-content h1{
     font-size: 7vmin;
@@ -527,7 +528,7 @@ a:hover{
         display: block;
     }
 }
-@media(max-width: 400px){
+@media(max-width: 800px){
     .sidebar{
         width: 100%;
         backdrop-filter: blur(20px);
@@ -622,7 +623,7 @@ a:hover{
 }
 }
 
-@media(max-width: 630px){
+@media(max-width: 800px){
     .footer-container{
         flex-direction: column;
         align-items: center;

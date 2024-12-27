@@ -529,7 +529,7 @@ a:hover{
         display: block;
     }
 }
-@media(max-width: 400px){
+@media(max-width: 800px){
     .sidebar{
         width: 100%;
         backdrop-filter: blur(20px);
@@ -623,16 +623,7 @@ a:hover{
     font-size: 1rem;
 }
 }
-@media(max-width:600px){
-    .footer-nav ul{
-        flex-direction: column;
-    }
-    .footer-nav ul li {
-        text-align: center;
-        margin: 10px;
-    }
-}
-@media(max-width: 630px){
+@media(max-width: 800px){
     .footer-container{
         flex-direction: column;
         align-items: center;
